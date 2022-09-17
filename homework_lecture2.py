@@ -34,7 +34,6 @@ if __name__ == '__main__':
             'Pasta Pomodoro Fresh ingredients Parmesan to taste',
              ]
     vectorizer = CountVectorizer()
-    vectorizer.get_feature_names()
     count_matrix = vectorizer.fit_transform(corpus)
     print(vectorizer.get_feature_names())
     print(count_matrix)
